@@ -1,0 +1,42 @@
+.homepage {
+	height : 100 vh;
+	background: #18182B;
+	position: relative;
+	background-size: cover;
+    background-position: top;
+
+
+    .heading {
+    	position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+         display: flex;
+  		flex-direction: column;
+  		width: 100%;
+  		align-items: center;
+    }
+    .heading-main{
+    	font-size: 4rem;
+    	color: white;
+
+    	.name {
+    		color: #FF5D7A;
+    		 font-weight: bold;
+    	}
+
+    }
+
+    .heading-sub{
+		font-size: 4rem;
+    	color: white;
+    }
+
+    .cust-butt {
+    	width: 75%;
+    	display:flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    }
+}
